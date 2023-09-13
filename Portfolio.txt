@@ -109,7 +109,7 @@
     </div>
 <!-----footer start-->
 <footer>
-  <p>Md Firoz</p>
+  <p>kavyanjali rai</p>
    <p>Connect with Us!</p>
    <div class="social">
     <a href=""><i class="fa fa-facebook-official"></i></a>
