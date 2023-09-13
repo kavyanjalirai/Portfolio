@@ -27,7 +27,7 @@
 
           <div class="r2"><center>
             <h4>Hello, My name is </h4>
-            <h1>Md Firoz</h1>
+            <h1>kavyanjali rai</h1>
             <h3>I'm a Web Developer.</h3>
           </div></div></center>
           
