@@ -1,0 +1,536 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+</head>
+<body>
+        <div class="hero">
+         <nav>
+           <h2 class="logo">Portfo<span>lio</span></h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Contact Us</a></li>
+             </ul>
+             <a href="#" class="btn">subscribe</a>
+          </nav>
+
+          <div class="r2"><center>
+            <h4>Hello, My name is </h4>
+            <h1>Md Firoz</h1>
+            <h3>I'm a Web Developer.</h3>
+          </div></div></center>
+          
+          
+         </div>
+
+
+
+    <!----About section -->
+    
+
+    
+   <div class="about"><center>
+      <div class="main">
+         <img class="backimg" src="image/1691231243102.jpg" alt="img">
+            <div class="about-text"><center>
+                <h2> About <span>Me</span></h2>
+             <h5>Web Developer <span>& designer</span></h5>
+              <p>
+                   I'm a Frontend web Developer. I can provide clean code and pixel perfect design. I also make the website more and more interactive with web animations.
+              </p>
+              <button type="button">Let's Talk</button>
+             </div></div></center>
+        </div>
+    </div>
+
+    <!----service section start-->
+    <div class="service">
+        <div class="title">
+            <h2>Our Services</h2>
+        </div>
+        <div class="box">
+            <div class="card">
+                <i class="fa fa-bars"></i>
+                <h5>Web Development</h5>
+                <div class="pra">
+                    <p>
+                        Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.
+                    </p>
+                    <p style="text-align: center;">
+                        <a class="button" href="">Read More</a>
+
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fa fa-user"></i>
+                <h5>Graphics Design</h5>
+                <div class="pra">
+                    <p>
+                        A designer plays a key role in a creative company, a designer always has an extremely creative mind that can absorb visual trends and deploy them in fresh and exciting ways
+                    </p>
+                    <p style="text-align: center;">
+                        <a class="button" href="">Read More</a>
+
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fa fa-bell"></i>
+                <h5>Software Development</h5>
+                <div class="pra">
+                    <p>
+                        Software developers write code using programming languages, build software components, and test their designs. As a part of software testing, developers address issues or errors. 
+                    </p>
+                    <p style="text-align: center;">
+                        <a class="button" href="">Read More</a>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------Contact me-->
+    <div class="con">
+        <p>Let Me Get A Beautiful Website.</p>
+        <a class="button-two" href="#">Hire Me </a>
+    </div>
+<!-----footer start-->
+<footer>
+  <p>Md Firoz</p>
+   <p>Connect with Us!</p>
+   <div class="social">
+    <a href=""><i class="fa fa-facebook-official"></i></a>
+    <a href=""><i class="fa fa-linkedin-square"></i></a>
+    <a href=""><i class="	fa fa-github"></i></a>
+</footer>
+
+</body>
+</html>
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+div{
+    float: left;
+
+}
+.hero{
+    width: 100%;
+    background-color: #191919;
+    height: 600px;
+
+    
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+.logo{
+    color: white;
+    font-size: 45px;
+    letter-spacing: ;
+}
+span{
+    color: #1500f9;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+
+    color: white;
+    font-size: 30px;
+    text-decoration:none ;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #1500f9;
+    transition: .1s;
+}
+.btn{
+    background-color: #1500f9;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 15px 25px;
+     border-radius:30px ;
+    transition: transfrom .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+ .r2{
+    width: 100%;
+    color: white;
+    background-size: cover;
+    height: 700px;
+    background: #101010;
+
+ }
+
+ .r2 h4{
+    
+    padding: 144px 96px 1px;
+    margin: 28px 40px 23px;
+    font-size: 35px;
+    color: #1500f9;
+    font-weight: bold;
+}
+
+ .r2 h1{
+    padding: 0px 91px 6px;
+    margin: 28px 40px 23px;
+    font-size: 80px;
+    color: aliceblue;
+    
+ }
+ .r2 h3{
+    padding: 0px 97px 0px;
+    margin: 28px 40px 23px;
+    font-size: 40px;
+    color: #1500f9;
+    
+ }
+
+
+
+
+.about{
+    width: 100%;
+    padding: 127px 62px;
+    background-color:#191919;
+    color: white;
+}
+
+.about-text{
+    width: 550px;
+
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: white;
+    font-size: 95px;
+    text-transform: capitalize;
+    margin-bottom: 23px;
+    padding-right: 10px;
+}
+.about-text h5{
+    color: white;
+    letter-spacing:0px;
+    line-height: 24px;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 21px;
+    font-size: 23px;
+    margin-bottom: 14px;
+    padding:3px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+button{
+    background-color: #1500f9;
+    color: white;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight: bold;
+    padding: 8px 30px;
+    border-radius: 25px;
+    transition: .45s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #1500f9;
+    cursor:pointer;
+}
+.backimg{
+    border: #1500f9;
+    box-shadow:10px 10px 10px #000;
+     height: auto;
+     width: 260px;
+    
+}
+.service{
+    background: #101010;
+    width: 100%;
+    padding: 80px 190px;
+}
+.title h2{
+   color: white;
+   font-size: 75px;
+   width: 1130px;
+   margin: 30px 324px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 65px;
+    text-align: center;
+    margin: 8px 29px;
+    color: #6052ff;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 14px;
+}
+.pra p{
+    color: rgba(153, 215, 244, 0.8);
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.card .button{
+    background-color: #1500f9;
+    color: white;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 25px;
+    transition: .45s;
+
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid #1500f9;
+    cursor:pointer;
+}
+.con{
+    width: 100%;
+    height: 200px;
+    background:#191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.con p{
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.con .button-two{
+    background-color: #1500f9;
+    color: white;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight: bold;
+    padding: 8px 30px;
+    border-radius: 25px;
+    transition: .45s;
+
+}
+.con .button-two:hover{
+background-color: transparent;
+border: 2px solid #1500f9;
+cursor:pointer;
+}
+footer{
+    background-color:transparent;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+footer p:nth-child(1){
+     font-size: 30px;
+     color: white;
+     margin-bottom: 20px;
+     font-weight: bold;
+
+}
+footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+.social{
+    display: flex;
+
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1500f9;
+    border-radius: 50%;
+    margin: 20px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+@media screen and (max-width: 768px)
+{
+    nav{
+        font-size: 5px;
+    }
+    .r2 h4{
+    
+        padding: 15px 10px 6px;
+        margin: 8px 4px 3px;
+        font-size: 10px;
+        color: #1500f9;
+    }
+    .r2 h1{
+        padding: 87px 90px 3px;
+        margin: 6px 44px 0px;
+        font-size: 34px;
+        color: white;
+    }
+    .r2 h3{
+        padding: 95px 90px 26px;
+        margin: 28px 40px 23px;
+        font-size: 39px;
+        color: #1500f9;
+    } 
+    .service{
+    background: #101010;
+    width: 100%;
+    padding: 60px 70px;
+    }
+    .title h2{
+   color: white;
+   font-size: 52px;
+   width: 5330px;
+   margin: 38px 115px;
+   } 
+   .card{
+    height: 335px;
+    width: 295px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}  
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+}
+@media screen and (max-width: 480px)
+{
+   nav{
+    font-size: 5px;
+    }
+    .r2 h4{
+    
+        padding: 95px 90px 13px;
+        margin: 28px 40px 13px;
+        font-size: 35px;
+        color: #1500f9;
+    }
+    .r2 h1{
+        padding: 87px 90px 3px;
+        margin: 6px 44px 0px;
+        font-size: 55px;
+        color: white;
+    }
+    .r2 h3{
+        padding: 95px 90px 26px;
+        margin: 28px 40px 23px;
+        font-size: 20px;
+        color: #1500f9;
+    } 
+     .service{
+    background: #101010;
+    width: 100%;
+    padding: 40px 60px;
+     }
+    .title h2{
+   color: white;
+   font-size: 47px;
+   width: 4430px;
+   margin: 45px 53px;
+}  
+.card{
+    height: 335px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+     
+}
