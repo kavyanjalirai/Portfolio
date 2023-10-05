@@ -1,3 +1,4 @@
+![logo](https://raw.githubusercontent.com/kavyanjalirai/kavyanjalirai/4081e62417fc0aacaec916f61d9f31995d939e0c/Screenshot%202023-10-06%20010618.png)
   <h1 align="center">Hi 👋, I'm Kavyanjali Rai</h1>
 <h3 align="center">A passionate frontend website developer and occasional content creator. My aim is to make people's lives better & easier by developing applications and websites.I believe that programming can empower people to achieve their full potential and live a better life.</h3>
 <img align="right" alt="coding" width="400" src="https://cdn.dribbble.com/users/1519660/screenshots/4536550/girl-_-laptop.gif">
